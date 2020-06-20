@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pocketGuide</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+			<h1 class="header-title"> Walking Tour</h1>
+		</div>
+	</header>
+
+
+	<section>
+		<div class="imageContainer">
+		<img src="../images/walkingtourImage.jpg" alt="picture of walking tour" class="image">
+		</div>
+
+		<div class="container">
+			<h3 class="info-title" id='showTitle'></h3>
+			<p class="info-text" id='showInfo'></p>
+
+		</div>
+	</section>
+
+	<section>
+		<div class="location-container">
+
+			<div class="location-flex">
+				<div class="t1"><p>Previous:</p></div>
+				<div class="t2" id="previousLocation" onclick="previousLocation()"><p>Location</p></div>
+			</div>
+			<div class="location-flex">
+				<div class="t1"><p>Current:</p></div>
+				<div class="t2" id="currentLocation" ><p>Location</p></div>
+			</div>
+			<div class="location-flex">
+				<div class="t1"><p>Next:</p></div>
+				<div class="t2" id="nextLocation" onclick="nextLocation()"><p>Location</p></div>
+			</div>
+
+			<div class="progress-info-flex">
+				<div class="p1"><p>Progress</p></div>
+				<div class="p2"><p>Visited</p></div>
+			</div>
+
+			<div class="progress-bar-image-container">
+				<img src="../images/progressbar.png" class="progress-image">
+			</div>
+
+		</div>
+
+		<div class="small-map-container">
+		<img src="../images/mapexample.png" alt="picture of walking tour" class="mini-map">
+		</div>
+
+	</section>
+
+	<section>
+		<div class="container-footer">
+			
+			<button type="button" class="button">Location</button>
+				<div class="button-right">
+					<button type="button" class="button">Start</button>
+				</div>
+		</div>
+	</section>
+	<script src="../ts/Classes.js"> </script>
+</body>
+</html>

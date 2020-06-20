@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+/* Here are the attributes shared by each html*/
+
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', 'sans-serif';
+
+}
+p{
+	font-size: 1em;
+	line-height: 1.3em;
+	text-align: justify-all; 
+}
+
+.header-container{
+	background-color: #4CAF50;
+	padding-left: 7.5vw;
+	display:flex;
+	margin:0em;
+	}
+
+.header-flex-container{
+
+}
+.header-title{
+	font-size: 4em;
+	color: white;
+	font-weight:1000;
+}
+
+.button{
+  background-color: #4CAF50;   
+  border: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3em;
+
+  height:12vw;
+  width:30vw;
+  border-style:ridge;
+  border-color:#666666;
+}
+
+/* modifications for index.html */
+
+.image{
+	width:100vw;
+	height:auto;
+}
+
+.container{
+	margin: 7.5vw;
+	font-size:1em;
+	background-color: #e6e6e6;
+	border-style: groove;
+	border-color: black;
+	padding:5vw;
+}
+
+.info-title{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* TODO make the text fill the content box more, justify content i think */
+
+.container-footer{
+	height:10vw;
+	padding-right: 7.5vw;
+	padding-left:7.5vw;
+}
+
+.button-right{
+	float:right;
+}
+
+
+
+
+
+/* modifications for main-screen*/
+
+
+
+	/* top box configs */
+
+.location-container{
+	margin: 7.5vw;
+	padding:6vw;
+	font-size:1em;
+	background-color: #e6e6e6;
+	border-style: groove;
+	border-color: black;
+}
+
+.location-flex{
+	display:flex;
+	padding: 0vw;
+	margin-bottom: 2vw;
+	font-size: 2em;
+	border-style:ridge;
+	border-color: black;
+	background-color:#FFFFFF
+}
+
+.t1{
+	flex:1;
+	margin-left:4%;
+}
+.t2{
+	flex:3;
+	text-align: center;
+}
+
+
+	/*progress bar config*/
+
+.progress-info-flex{
+	display:flex;
+	font-size: 1.5em;
+}
+.p1{
+	flex:4;
+}
+.p2{
+	flex:1;
+}
+.progress-bar-image-container{
+	background-color: #e6e6e6;
+
+}
+.progress-image{
+	max-width: 100%;
+	max-height:100%;
+}
+
+
+
+	/*button configs*/
+.button-center{
+	text-align: center;
+}
+
+	/*small map configs*/
+.small-map-container{
+	border-style: ridge;
+	border-color: black;
+	margin: 7.5vw;
+}	
+
+.mini-map{
+	max-width: 100%;
+	max-height:100%;
+}
+
+
+
+
+
